@@ -2,7 +2,7 @@ using Documenter, MathematicalSets
 
 makedocs(;
     modules=[MathematicalSets],
-    format=:html,
+    format = Documenter.HTML(),
     pages = [
         "Home" => "index.md",
         "Library" => Any[
@@ -19,7 +19,6 @@ makedocs(;
 deploydocs(;
     repo="github.com/JuliaReach/MathematicalSets.jl",
     target="build",
-    julia="1.0",
     deps=nothing,
     make=nothing,
 )
