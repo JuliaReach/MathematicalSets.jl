@@ -1,3 +1,5 @@
+import MathematicalSets.AbstractSet
+
 struct Singleton{T<:AbstractVector} <: AbstractSet
     element::T
 end
