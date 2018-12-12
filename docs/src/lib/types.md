@@ -17,5 +17,5 @@ end
 ## Abstract Set
 
 ```@docs
-AbstractSystem
+AbstractSet
 ```
