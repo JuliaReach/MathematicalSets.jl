@@ -3,13 +3,17 @@ using Documenter, MathematicalSets
 makedocs(;
     modules=[MathematicalSets],
     format=:html,
-    pages=[
+    pages = [
         "Home" => "index.md",
+        "Library" => Any[
+        "Types" => "lib/types.md",
+        "Methods" => "lib/methods.md"],
+        "About" => "about.md"
     ],
     repo="https://github.com/JuliaReach/MathematicalSets.jl/blob/{commit}{path}#L{line}",
     sitename="MathematicalSets.jl",
     authors="Marcelo Forets, Benoît Legat, Christian Schilling",
-    assets=[],
+    assets = ["assets/juliareach.css"],
 )
 
 deploydocs(;
