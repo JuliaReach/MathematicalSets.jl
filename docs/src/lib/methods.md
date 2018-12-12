@@ -13,3 +13,10 @@ DocTestSetup = quote
     using MathematicalSets
 end
 ```
+
+## Dimensions
+
+```@docs
+space_dimension
+dimension
+```
