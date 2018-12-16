@@ -13,3 +13,10 @@ DocTestSetup = quote
     using MathematicalSets
 end
 ```
+
+## Topological properties
+
+```@docs
+space_dimension
+dimension
+```
