@@ -14,7 +14,7 @@ DocTestSetup = quote
 end
 ```
 
-## Dimensions
+## Topological properties
 
 ```@docs
 space_dimension

@@ -1,4 +1,6 @@
 using MathematicalSets
 using Test
 
-@testset "Subtype of AbstractSet" begin include("subtype.jl") end
+include("singleton.jl")
+
+@testset "Topological properties of sets" begin include("topological.jl") end

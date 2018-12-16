@@ -5,9 +5,9 @@ Abstract types for sets
 ==========================#
 include("abstract.jl")
 
-#=========================
-Common methods for sets
-==========================#
-include("methods.jl")
+#==============================
+Topological properties of sets
+==============================#
+include("topological.jl")
 
 end # module
