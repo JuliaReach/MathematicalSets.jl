@@ -42,7 +42,7 @@ Euclidean ``n``-dimensional ball in ``\\mathbb{R}^n``.
 - `center` -- vector that represents the center of the sphere
 - `radius` -- scalar that represents the radius of the sphere
 """
-struct Ball{T, VT <: AbstractVector{T}} <: AbstractSet
+struct Ball{T, VT <: AbstractVector{T}} <: MathematicalSets.AbstractSet
     center::VT
     radius::T
 end
@@ -56,7 +56,7 @@ MathematicalSets.dimension(S::Ball) = space_dimension(S)
 # the ball is centered in the origin
 Ball(R::T, n::Int) where T = Ball(zeros(T, n), R)
  
-using SpecialFunctions # needed for gamma function
+using SpecialFunctions # needed for the gamma function
 
 function MathematicalSets.volume(S::Ball)
     n, R = dimension(S), radius(S)
