@@ -9,6 +9,14 @@ import MathematicalSets.AbstractSet
 # ===========================================================================
 
 """
+    DummySet <: MathematicalSets.AbstractSet
+
+The dummy set is a set with no fields. It is used to cover the `MathematicalSets`
+functions.
+"""
+struct DummySet <: MathematicalSets.AbstractSet end
+
+"""
     Singleton{T<:AbstractVector} <: AbstractSet
 
 A singleton is a set with one element.
@@ -29,8 +37,8 @@ MathematicalSets.dimension(s::Singleton) = 0
 # the following metric properties for a singleton are usually zero, although
 # depending on the applicaton one could be interested to have e.g. a Dirac δ
 # if commented, defaults to returning `nothing` in `MathematicalSets`:
-# MathematicalSets.volume(s::Singleton) = 0.
-# MathematicalSets.surface_area(s::Singleton) = 0.
+MathematicalSets.volume(s::Singleton) = 0.
+MathematicalSets.surface_area(s::Singleton) = 0.
 
 """
     Ball{T} <: AbstractSet

@@ -1,4 +1,11 @@
 # =================================================
+# DummySet: a set to test default methods
+# =================================================
+D = DummySet()
+@test space_dimension(D) == nothing
+@test dimension(D) == nothing
+
+# =================================================
 # Singleton: a singleton is a set with one element
 # =================================================
 s = Singleton([1.0, 2.0, 3.0])
