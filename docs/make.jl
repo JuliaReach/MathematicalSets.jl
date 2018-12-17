@@ -1,8 +1,9 @@
 using Documenter, MathematicalSets
 
 makedocs(;
+    doctest = true,
     modules=[MathematicalSets],
-    format = Documenter.HTML(),
+    format = :html,
     pages = [
         "Home" => "index.md",
         "Library" => Any[
