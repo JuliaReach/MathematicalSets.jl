@@ -17,6 +17,13 @@ end
 ## Topological properties
 
 ```@docs
-space_dimension
 dimension
+space_dimension
+```
+
+## Metric properties
+
+```@docs
+surface_area
+volume
 ```

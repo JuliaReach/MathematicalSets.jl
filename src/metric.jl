@@ -16,15 +16,13 @@ A number.
 The `volume` refers to the volume of the set with respect to some measure.
 The actual notion of `volume` adopted is left to the package implementing
 this function.
-
-See also [`surface(::AbstractSet)`](@ref) for the surface of the set.
 """
 function volume(::AbstractSet) end
 
 """
-    surface(S::AbstractSet)
+    surface_area(S::AbstractSet)
 
-Return the surface of the given set.
+Return the surface area of the given set.
 
 ### Input
 
@@ -32,14 +30,12 @@ Return the surface of the given set.
 
 ### Output
 
-An integer.
+A number.
 
 ### Notes
 
-The `surface` refers to the surface of the set with respect to some measure.
-The actual notion of `surface` adopted is left to the package implementing
-this function.
-
-See also [`volume(::AbstractSet)`](@ref) for the volume of the set.
+The `surface_area` refers to the surface area of the set with respect to some
+measure. The actual notion of `surface` adopted is left to the package
+implementing this function.
 """
-function surface(::AbstractSet) end
+function surface_area(::AbstractSet) end
