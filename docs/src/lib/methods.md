@@ -14,9 +14,16 @@ DocTestSetup = quote
 end
 ```
 
+## Metric properties
+
+```@docs
+surface_area
+volume
+```
+
 ## Topological properties
 
 ```@docs
-space_dimension
 dimension
+space_dimension
 ```

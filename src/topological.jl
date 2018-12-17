@@ -17,7 +17,7 @@ The `space_dimension` refers to the ambient dimension of the set. For example,
 a line in an ``n``-dimensional space has `space_dimension` equal to ``n``, even
 if the dimension of its affine hull is ``1``.
 
-See also [`dimension(::AbstractSet)`](@ref) for the dimension of set.
+See also [`dimension(::AbstractSet)`](@ref) for the dimension of the set.
 """
 function space_dimension(::AbstractSet) end
 

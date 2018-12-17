@@ -100,4 +100,4 @@ These persons have contributed to `MathematicalSets.jl` (in alphabetic order):
 
 - [Marcelo Forets](http://main.marcelo-forets.fr)
 - [Benoît Legat](https://perso.uclouvain.be/benoit.legat/)
-- [Christian Schilling](http://swt.informatik.uni-freiburg.de/staff/christian_schilling/)
+- [Christian Schilling](https://schillic.github.io/)
