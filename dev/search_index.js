@@ -25,14 +25,6 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "#Usage-1",
-    "page": "Home",
-    "title": "Usage",
-    "category": "section",
-    "text": "The following packages implement the MathematicalSets.AbstractSet interface:Library Description\nLazySets A Julia package for calculus with convex sets\nPolyhedra Polyhedral Computation Interface\nSemialgebricSets Extension of MultivariatePolynomials to semialgebraic sets\nSetProg Set Programming with JuMP"
-},
-
-{
     "location": "#Library-Outline-1",
     "page": "Home",
     "title": "Library Outline",
