@@ -1,11 +1,18 @@
 # =================================================
+# DummySet: a set to test default methods
+# =================================================
+D = DummySet()
+@test volume(D) == nothing
+@test surface_area(D) == nothing
+
+# =================================================
 # Singleton: a singleton is a set with one element
 # =================================================
 s = Singleton([1.0, 2.0, 3.0])
 
 # these are not-implemented functions
-@test volume(s) == nothing
-@test surface_area(s) == nothing
+@test volume(s) == 0.
+@test surface_area(s) == 0.
 
 # =================================================
 # Ball: a ball in n-dimensional space
