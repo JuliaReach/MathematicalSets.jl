@@ -8,17 +8,17 @@ include("abstract.jl")
 #==============================
 Topological properties of sets
 ==============================#
+include("topological.jl")
+
 export dimension,
        space_dimension
-
-include("topological.jl")
 
 #==============================
 Metric properties of sets
 ==============================#
+include("metric.jl")
+
 export surface_area,
        volume
-
-include("metric.jl")
 
 end # module
