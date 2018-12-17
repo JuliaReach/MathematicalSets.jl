@@ -39,8 +39,8 @@ Euclidean ``n``-dimensional ball in ``\\mathbb{R}^n``.
 
 ### Fields
 
-- `center` -- vector that represents the center of the sphere
-- `radius` -- scalar that represents the radius of the sphere
+- `center` -- vector that represents the center of the ball
+- `radius` -- scalar that represents the radius of the ball
 """
 struct Ball{T, VT <: AbstractVector{T}} <: MathematicalSets.AbstractSet
     center::VT
