@@ -8,6 +8,8 @@
 
 `MathematicalSets` is a [Julia](http://julialang.org) package for mathematical sets interfaces.
 
+>  :warning: This package is still a work-in-progress. If you are interested feel free to join the discussion at the [JuliaReach gitter channel](https://gitter.im/JuliaReach/Lobby).
+
 ## Resources
 
 - [Manual](http://juliareach.github.io/MathematicalSets.jl/latest/)
