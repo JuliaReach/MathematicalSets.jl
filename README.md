@@ -8,29 +8,4 @@
 
 `MathematicalSets` is a [Julia](http://julialang.org) package for mathematical sets interfaces.
 
->  :warning: This package is still a work-in-progress. If you are interested feel free to join the discussion at the [JuliaReach gitter channel](https://gitter.im/JuliaReach/Lobby).
-
-## Resources
-
-- [Manual](http://juliareach.github.io/MathematicalSets.jl/latest/)
-- [Contributing](https://juliareach.github.io/MathematicalSets.jl/latest/about.html#Contributing-1)
-
-## Installing
-
-This package requires Julia v1.0 or later. Refer to the
-[official documentation](https://julialang.org/downloads) on how to install and
-run Julia in your system.
-
-To install this package, use the following command inside Julia's REPL:
-
-```julia
-using Pkg
-Pkg.add("MathematicalSets")
-```
-
-## Updating
-
-To checkout the latest version, do
-```julia
-Pkg.checkout("MathematicalSets")
-````
+## :warning: NOTE: This library is currently unmaintained
