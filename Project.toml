@@ -1,6 +1,5 @@
 name = "MathematicalSets"
 uuid = "7e933142-fe23-11e8-0e3a-eb85481d2276"
-authors = ["mforets <mforets@gmail.com>"]
 version = "0.1.0"
 
 [compat]
