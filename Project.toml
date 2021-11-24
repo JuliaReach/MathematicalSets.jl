@@ -3,11 +3,11 @@ uuid = "7e933142-fe23-11e8-0e3a-eb85481d2276"
 version = "0.1.0"
 
 [compat]
-julia = "≥ 1.0.0"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 [targets]
-test = ["Test", "SpecialFunctions"]
+test = ["SpecialFunctions", "Test"]
