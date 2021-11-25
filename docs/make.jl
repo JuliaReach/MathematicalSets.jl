@@ -1,9 +1,11 @@
 using Documenter, MathematicalSets
 
 makedocs(;
-    doctest = true,
+    sitename="MathematicalSets.jl",
     modules=[MathematicalSets],
-    format = :html,
+    format = Documenter.HTML(
+        prettyurls = get(ENV, "CI", nothing) == "true",
+        assets = ["assets/juliareach.css"]),
     pages = [
         "Home" => "index.md",
         "Library" => Any[
@@ -12,14 +14,10 @@ makedocs(;
         "About" => "about.md"
     ],
     repo="https://github.com/JuliaReach/MathematicalSets.jl/blob/{commit}{path}#L{line}",
-    sitename="MathematicalSets.jl",
-    authors="Marcelo Forets, Benoît Legat, Christian Schilling",
-    assets = ["assets/juliareach.css"],
+    doctest = true,
+    strict = true
 )
 
 deploydocs(;
-    repo="github.com/JuliaReach/MathematicalSets.jl",
-    target="build",
-    deps=nothing,
-    make=nothing,
+    repo="github.com/JuliaReach/MathematicalSets.jl"
 )
