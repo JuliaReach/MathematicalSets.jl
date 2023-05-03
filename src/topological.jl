@@ -45,7 +45,7 @@ affine hull of the set. For example, a line in an ``n``-dimensional space has
 However, in other domains, e.g. semialgebraic sets, `dimension` is not the
 dimension of its affine hull.
 
-See also [`space_dimension(::AbstractSet)`](@ref) for the ambient dimension of 
+See also [`space_dimension(::AbstractSet)`](@ref) for the ambient dimension of
 the set.
 """
 function dimension(::AbstractSet) end

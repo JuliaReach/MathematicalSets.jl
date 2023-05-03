@@ -2,8 +2,8 @@
 # DummySet: a set to test default methods
 # =================================================
 D = DummySet()
-@test space_dimension(D) == nothing
-@test dimension(D) == nothing
+@test isnothing(space_dimension(D))
+@test isnothing(dimension(D))
 
 # =================================================
 # Singleton: a singleton is a set with one element
