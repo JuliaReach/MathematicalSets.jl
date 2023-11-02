@@ -34,8 +34,8 @@ MathematicalSets.space_dimension(s::Singleton) = length(s.element)
 # the dimension of a point is conventionally 0
 MathematicalSets.dimension(s::Singleton) = 0
 
-# the following metric properties for a singleton are usually zero, although
-# depending on the applicaton one could be interested to have e.g. a Dirac δ
+# the following metric properties for a singleton are usually zero, although,
+# depending on the application, one could be interested to have e.g. a Dirac δ;
 # if commented, defaults to returning `nothing` in `MathematicalSets`:
 MathematicalSets.volume(s::Singleton) = 0.0
 MathematicalSets.surface_area(s::Singleton) = 0.0
