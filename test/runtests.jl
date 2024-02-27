@@ -9,3 +9,5 @@ end
 @testset "Topological properties of sets" begin
     include("topological.jl")
 end
+
+include("Aqua.jl")
