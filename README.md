@@ -1,4 +1,4 @@
-# MathematicalSets
+# MathematicalSets.jl
 
 | **Documentation** | **Status** | **Community** | **License** |
 |:-----------------:|:----------:|:-------------:|:-----------:|
