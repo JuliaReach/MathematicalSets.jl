@@ -7,8 +7,9 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 [compat]
 Aqua = "0.8"
 ExplicitImports = "1"
-Pkg = "<0.0.1, 1.2"
+Pkg = "<0.0.1, 1"
 SpecialFunctions = "0.8, 0.9, 0.10, 1, 2"
+Test = "<0.0.1, 1"
 
 [extras]
 ExplicitImports = "7d51a73a-1435-4ff3-83d9-f097790105c7"
