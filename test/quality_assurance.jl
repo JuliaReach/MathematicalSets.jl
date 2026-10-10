@@ -17,6 +17,16 @@ import Pkg
     end
 end
 
+@static if VERSION >= v"1.10"
+    # JET v0.9.0 (earliest supported version) requires Julia v1.10
+    Pkg.add("JET")
+    import JET
+
+    @testset "JET tests" begin
+        JET.test_package(MathematicalSets)
+    end
+end
+
 @testset "Aqua tests" begin
     Aqua.test_all(MathematicalSets)
 end
