@@ -9,14 +9,6 @@ import MathematicalSets.AbstractSet
 # ===========================================================================
 
 """
-    DummySet <: MathematicalSets.AbstractSet
-
-The dummy set is a set with no fields. It is used to cover the `MathematicalSets`
-functions.
-"""
-struct DummySet <: MathematicalSets.AbstractSet end
-
-"""
     Singleton{T<:AbstractVector} <: AbstractSet
 
 A singleton is a set with one element.

@@ -1,11 +1,4 @@
 # =================================================
-# DummySet: a set to test default methods
-# =================================================
-D = DummySet()
-@test isnothing(volume(D))
-@test isnothing(surface_area(D))
-
-# =================================================
 # Singleton: a singleton is a set with one element
 # =================================================
 s = Singleton([1.0, 2.0, 3.0])

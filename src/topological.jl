@@ -1,4 +1,4 @@
-"""
+@doc """
     space_dimension(S::AbstractSet)
 
 Return the space dimension of the given set.
@@ -19,9 +19,10 @@ if the dimension of its affine hull is ``1``.
 
 See also [`dimension(::AbstractSet)`](@ref) for the dimension of the set.
 """
-function space_dimension(::AbstractSet) end
+space_dimension(::AbstractSet)
+function space_dimension end
 
-"""
+@doc """
     dimension(S::AbstractSet)
 
 Return the dimension of the given set.
@@ -48,4 +49,5 @@ dimension of its affine hull.
 See also [`space_dimension(::AbstractSet)`](@ref) for the ambient dimension of
 the set.
 """
-function dimension(::AbstractSet) end
+dimension(::AbstractSet)
+function dimension end
